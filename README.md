@@ -1,4 +1,4 @@
-# 🎬 Locadora de Filmes Online
+# Locadora de Filmes Online
 
 Este é um projeto acadêmico de **Engenharia de Software**, cujo objetivo é desenvolver um **MVP (Minimum Viable Product)** de uma locadora de filmes online.  
 
@@ -9,7 +9,7 @@ O sistema permite que usuários possam:
 - Finalizar a compra com pagamento simulado  
 
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Frontend
 - **React.js** → criação das interfaces (HTML, CSS e JS).  
@@ -21,5 +21,5 @@ O sistema permite que usuários possam:
 ### Banco de Dados 
 
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
