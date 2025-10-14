@@ -23,3 +23,25 @@ O sistema permite que usuários possam:
 
 ##  Estrutura do Projeto
 
+locadora-filmes/
+│
+├── locadora/                # Pasta principal do projeto Django
+│   ├── settings.py          # Configurações do projeto
+│   ├── urls.py              # Rotas principais
+│   ├── wsgi.py              # Configuração para deploy
+│   └── asgi.py              # Configuração para servidores async
+│
+├── filmes/                  # Aplicação principal (módulo de filmes)
+│   ├── models.py            # Modelos de dados (Filme, Gênero, etc.)
+│   ├── views.py             # Lógica de controle (listagem, detalhes, etc.)
+│   ├── urls.py              # Rotas da aplicação de filmes
+│   ├── templates/           # Páginas HTML
+│   └── static/              # Arquivos estáticos (CSS, JS, imagens)
+│
+├── users/                   # Aplicação para usuários e autenticação
+│   ├── models.py
+│   ├── views.py
+│   └── templates/
+│
+├── manage.py                # Comando para executar o projeto Django
+└── README.md                # Documentação do projeto
