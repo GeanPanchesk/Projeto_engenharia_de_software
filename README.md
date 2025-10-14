@@ -23,6 +23,7 @@ O sistema permite que usuários possam:
 
 ##  Estrutura do Projeto
 
+```bash
 locadora-filmes/
 │
 ├── locadora/                # Pasta principal do projeto Django
